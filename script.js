@@ -109,3 +109,37 @@ function buildQuiz(){
       alert("You're out of time!");
     }
   }, 1000);
+
+  // Variables
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+const myQuestions = [
+  {
+    question: "Why do JavaScript and Java have similar name?",
+    answers: {
+      a: "JavaScript is a stripped-down version of Java",
+      b: "JavaScript's syntax is loosely based on Java's",
+      c: "They both originated on the island of Java"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "When a user views a page containing a JavaScript program, which machine actually executes the script?",
+    answers: {
+      a: "The User's machine running a Web browser",
+      b: "The Web server",
+      c: "A central machine deep within Netscape's corporate offices"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "______ JavaScript is also called client-side JavaScript",
+    answers: {
+      a: "Microsoft",
+      b: "Navigator",
+      c: "LiveWire",
+    },
+    correctAnswer: "b"
+  }
+];
