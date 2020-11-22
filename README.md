@@ -15,6 +15,4 @@ The purpose was to create a quiz that meets the following criteria:
 *WHEN the game is over
 *THEN I can save my initials and score
 
-![Code Quiz]()
-
-[Deployed Site]()
+[Deployed Site](https://cris-franco.github.io/code-quiz/)
